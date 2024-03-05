@@ -1,14 +1,40 @@
-h1 {
-    color: #ff0000;
+.header h1 {
+    color: #fff;
+    margin: 0px; /* Elimina el margen predeterminado del h1 */
+}
+body {
+    background-image: url('../imagenes/fondo.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0; /* Elimina el margen predeterminado del body */
+}
+h4{
+    color: #448cbd;
     text-align: center;
+}
+.header {
+    background-color: #353333;
+    height: 125px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar horizontalmente */
 }
 
 .table, th, td {
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid #5fc56d;
+}
+
+.conteiner {
+    text-align: center; /* Centrar el contenido del contenedor */
 }
 
 table {
+    color: #fff;
     display: inline-block;
     margin-right: 20px;
 }
@@ -22,3 +48,4 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
